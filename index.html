@@ -1,25 +1,28 @@
 <html>
   <head>
   </head>
-  <title> Это база! </title>
+  <title> Справочник по всякому </title>
   <link rel="stylesheet" href="styles.css">
+  <style type="text/css">
+   #maket TD {
+    padding: 5px; /* Поля вокруг содержимого ячеек */
+    vertical-align: top; /* Выравнивание по верхнему краю ячеек */
+    width: 200px; /* Ширина колонки */
+   }
+  </style>
   <body>
-    <h1>Базированная база</h1>
+    <h1>Всякое</h1>
    <!--wrapper start-->
 <div class="wrapper">
 
 <!--content start-->
 <div class="content">
    <a href="cmd.html">CMD | Командная строка</a>
-</div>
-<!--content end-->
-
-<!--sidebar start-->
-<div class="sidebar">
-   Боковая панель она может распологаться как слева так и справа
-</div>
-<!--sidebar end-->
-  </div> 
-    <!--wrapper end-->
+<table width="100%" cellspacing="0" id="maket">
+   <tr> 
+    <td id="leftcol"><a href="cmd.html">CMD | Командная строка</a></td>
+    <td valign="top"><h1>Базированная база</h1></td>
+   </tr>
+  </table>
   </body>
 </html>
